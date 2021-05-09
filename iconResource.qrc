@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>PNG/c.png</file>
+    <file>PNG/h.png</file>
+    <file>PNG/hc.png</file>
+    <file>PNG/hr.png</file>
+    <file>PNG/lc.png</file>
+    <file>PNG/lr.png</file>
+    <file>PNG/s.png</file>
+    <file>PNG/sl.png</file>
+    <file>PNG/sn.png</file>
+    <file>PNG/t.png</file>
+  </qresource>
+</RCC>
