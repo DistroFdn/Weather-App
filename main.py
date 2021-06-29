@@ -1,6 +1,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 import icon_yup
 import requests
+import re
 # Import required libraries
 
 class Ui_MainWindow(object):
@@ -53,36 +54,8 @@ class Ui_MainWindow(object):
         to send the ID of each city and get information, it will definitely send more requests
         '''
         response = requests.get(URLForFindCity)
-        data = response.text
-        convert = str(data)
-        # This part of the program becomes very simple if we use "regex" :)
-        # Remove annoying characters from the list
-        dataWithout = convert.replace("[{" , '')
-        newData = dataWithout.replace("}]",'')
-        var = newData.replace("}", '')
-        var2 = var.replace("{", '')
-        # Use the replace method
-        # As you know the properties of strings, they are immutable.
-        # Convert string to list by split method
-        heng = var2.split(',')
-        IDAndProcContDict = dict()
-        # Convert data to a dictionary for easy access to arguments
-        for init in heng:
-            # Each content becomes a new temporary list to build the dictionary
-            splitWith = init.split(":")
-            if len(splitWith) == 1:
-                continue
-            else:
-                IDAndProcContDict[splitWith[0]] = splitWith[1]
-
-        # woeid ID
-        # Where On Earth ID
-        try:
-            Woeid = int(IDAndProcContDict['"woeid"'])
-            self.Error.clear()
-        except:
-            self.Error.setText("city Not Found")
-
+        convert = str(response.text)
+        Woeid = re.search(":\d+", convert).group(0).replace(":", "")
         #Send a request and receive Weather information about this city
         URLWeather = f"https://www.metaweather.com/api/location/{Woeid}"
         responseFrom = requests.get(URLWeather)
