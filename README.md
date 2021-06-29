@@ -1,4 +1,4 @@
-<p align='center'><img src='https://raw.githubusercontent.com/DistroTEAM/Weather-App/master/PNG/h.png'> <img src='https://raw.githubusercontent.com/DistroTEAM/Weather-App/master/PNG/s.png'></p>
+<p align='center'><img src='https://raw.githubusercontent.com/DistroTEAM/Weather-App/master/PNG/h.png'> <img src='https://raw.githubusercontent.com/DistroTEAM/Weather-App/master/PNG/s.png'> <img src='https://raw.githubusercontent.com/DistroTEAM/Weather-App/master/PNG/t.png'> </p>
 
 <p align='center'><b>Weather App Using API</b></p>
 
