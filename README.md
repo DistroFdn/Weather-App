@@ -5,4 +5,4 @@
 
 
 
-<p><a herf='https://github.com/DistroTEAM/Weather-App/blob/master/cli/Weather%20APP.ipynb'>See in Notebook V</a></p>
+<p align='center'><a href='https://github.com/DistroTEAM/Weather-App/blob/master/cli/Weather%20APP.ipynb'>See in Notebook V</a></p>
