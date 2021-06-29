@@ -1,6 +1,6 @@
-### Weather-App
-Simple weather app using API that could be better :)
--------------------------------------------------------
+<p align='center'><img src='https://raw.githubusercontent.com/DistroTEAM/Weather-App/master/PNG/h.png'></p>
+
+<p align='center'><b>Weather App Using API</b></p>
 # Jupyter
 
 [See in github](https://github.com/DistroTEAM/Weather-App/blob/master/cli/Weather%20APP.ipynb)
