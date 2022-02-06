@@ -1,4 +1,4 @@
-<p align='center'><img src='https://raw.githubusercontent.com/DistroTEAM/Weather-App/master/PNG/h.png'> <img src='https://raw.githubusercontent.com/DistroTEAM/Weather-App/master/PNG/s.png'> <img src='https://raw.githubusercontent.com/DistroTEAM/Weather-App/master/PNG/t.png'> </p>
+<p align='center'><img src="/PNG/h.png"> <img src="/PNG/s.png"> <img src="/PNG/t.png"> </p>
 
 <p align='center'> <img src='https://img.shields.io/github/languages/code-size/distroteam/weather-app'> <img src='https://img.shields.io/github/license/distroteam/weather-app'</p>
 
